@@ -1,0 +1,8 @@
+/* pages/index/index.wxss */
+@import "../styles/common.wxss";
+.input_sum{
+  border: 1px solid;
+}
+.middle-p {
+  padding:15px;
+}

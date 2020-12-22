@@ -1,0 +1,21 @@
+<!--pages/home/index.wxml-->
+<view>
+  <!-- <text>pages/home/index.wxml</text> -->
+  <view class="header">
+    <view class="icon-wrp">
+      <view hidden="{{selectInd === 0? false: true}}">
+        <index-page></index-page>
+      </view>
+      <view hidden="{{selectInd === 1? false: true}}">
+        <form-page></form-page>
+      </view>
+      <view hidden="{{selectInd === 2? false: true}}">
+        <setting-page></setting-page>
+      </view>
+      <view hidden="{{selectInd === 3? false: true}}">
+        <me-page></me-page>
+      </view>
+    </view>
+  </view>
+  <customtabbar bind:switchTab="switchTab"></customtabbar>
+</view>

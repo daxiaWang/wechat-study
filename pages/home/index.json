@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "customtabbar": "/custom-tab-bar/index",
+    "index-page": "/pages/index/index",
+    "form-page": "/pages/form/index",
+    "setting-page": "/pages/setting/index",
+    "me-page": "/pages/me/index"
+  }
+}

@@ -1,0 +1,11 @@
+<!--pages/index/index.wxml-->
+<view>
+  <text>pages/index/index.wxml3333333333</text>
+  <view class="middle-p">
+    <input type="text" />
+  </view>
+  <view class="input_sum">
+    <input type="number" bindinput="handleInput" value="{{num1}}" />
+  </view>
+  <button bindtap="handleOpen">open</button>
+</view>

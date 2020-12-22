@@ -1,0 +1,11 @@
+/* pages/home/index.wxss */
+.header{
+  /* height: 30px; */
+  /* border: 1px solid; */
+}
+.icon-wrp{
+  display: flex;
+}
+
+
+

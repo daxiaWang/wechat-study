@@ -1,0 +1,4 @@
+.small-p {
+  padding:5px;
+  color: #0ff;
+}
